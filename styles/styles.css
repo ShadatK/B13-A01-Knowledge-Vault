@@ -10,13 +10,37 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+.btn{
+    background-color: #469165;
+    color: white;
+    cursor:pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 /*Header Styles*/
 /*navbar styles*/
 
-nav {
-    border: 1px solid red;
+nav{
     display: flex;
-    justify-content: space-between;
+    gap: 346px;
+    justify-content: space-around;
     align-items: center;
+    padding: 16px 120px;
+}
+.menu{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: medium;
+}
+.early-access button{
+    padding: 12px 16px;
 }
