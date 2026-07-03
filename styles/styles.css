@@ -19,8 +19,20 @@
     font-size: 16px;
     font-weight: 500;
 }
+.text-center{
+    text-align: center;
+}
+.common-green{
+    color: #30B868;
+}
 
 /*Header Styles*/
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /*navbar styles*/
 
 nav{
@@ -43,4 +55,66 @@ nav{
 }
 .early-access button{
     padding: 12px 16px;
+}
+
+/*Hero Section Styles*/
+
+#hero{
+    flex: 1;    /*I wanted the hero section to fill the remaining viewport after the navbar.*/
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 120px 134px;
+}
+#hero .reminder button{
+    background-color: white;
+    color: #469165;
+    border: none;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 16px;
+}
+#hero .reminder button i{
+    opacity: 0.7;
+}
+#hero h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin: 16px 295px;
+    color: white;
+}
+#hero .hero-text{
+    margin: 0 295px 32px;
+}
+#hero .hero-text p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: white;
+    padding: 8px 0;
+}
+#hero .buttons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+#hero .buttons button{
+    padding: 16px;
+}
+.green-btn{
+    display: flex;
+    gap: 8px;
+}
+.clear-btn{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor:pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
 }
