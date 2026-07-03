@@ -146,7 +146,6 @@ nav{
     margin-top: 44px;
 }
 .card-section .cards{
-    /* border: 1px solid red; */
     background-color: white;
     border-radius: 8px;
     padding: 68px 22px 22px 22px;
@@ -176,5 +175,43 @@ nav{
 /*Solution Section Styles*/
 
 #solution-section{
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+.solution-info h4{
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.solution-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.solution-info p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.solution-info ul{
+    list-style: none;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+}
+.solution-info ul li{
+    padding-bottom: 16px;
+}
+.solution-info ul li img{
+    vertical-align: middle;
 }
