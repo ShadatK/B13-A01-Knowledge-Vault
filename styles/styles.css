@@ -118,3 +118,63 @@ nav{
     font-size: 16px;
     font-weight: 500;
 }
+
+/*Main Section Styles*/
+/*Cards Section Styles*/
+
+#card-section{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    padding: 60px;
+}
+#card-section .card-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#card-section .card-info p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+}
+.card-section{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 44px;
+}
+.card-section .cards{
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 8px;
+    padding: 68px 22px 22px 22px;
+    width: 100%;
+    max-width: 322px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 6%);
+}
+.card-section img{
+    background-color: #F95555;
+    border-radius: 100px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+.card-section h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-section p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+}
+
+/*Solution Section Styles*/
+
+#solution-section{
+    border: 1px solid red;
+}
